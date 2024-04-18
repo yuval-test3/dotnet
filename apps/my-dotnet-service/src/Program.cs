@@ -18,6 +18,7 @@ builder.Services.AddScoped<IOrdersService, OrdersService>();
 builder.Services.AddScoped<ICustomersService, CustomersService>();
 builder.Services.AddScoped<IAddressesService, AddressesService>();
 builder.Services.AddScoped<IProductsService, ProductsService>();
+builder.Services.AddScoped<ICitiesService, CitiesService>();
 
 // Add graphql services to the container.
 builder.Services.AddSingleton<ISchema, GqlSchema>(services => new GqlSchema(
