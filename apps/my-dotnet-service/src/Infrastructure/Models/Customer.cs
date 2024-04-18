@@ -29,4 +29,6 @@ public class Customer
 
     [ForeignKey(nameof(AddressId))]
     public Address? Address { get; set; }
+
+    public string? Phone_2 { get; set; }
 }

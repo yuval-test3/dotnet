@@ -8,4 +8,5 @@ public class CustomerWhereInput
     public string? Phone { get; set; }
     public ICollection<OrderDto>? Orders { get; set; }
     public AddressDto AddressId { get; set; }
+    public string? Phone_2 { get; set; }
 }
